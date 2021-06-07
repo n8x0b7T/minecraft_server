@@ -8,6 +8,7 @@ echo
 
 curl $server_jar -o server.jar
 
+sudo apt update
 sudo apt install screen
 
 chmod +x *.sh
